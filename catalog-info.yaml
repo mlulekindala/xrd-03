@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-01"
+  description: "description"
+  annotations:
+    github.com/project-slug: mlulekindala/xrd-03
+    backstage.io/techdocs-ref: url:https://github.com/mlulekindala/xrd-03
+spec:
+  type: other
+  lifecycle: experimental
+  owner: "guest"
